@@ -14,6 +14,7 @@ Created_at: "2026-05-13"
 Today, i made a PCB business card that does two things: includes a qr code etched in copper on the back, and has an nfc chip on the front that will light a small LED using power harvesting when a person taps their phone to the card.
 
 ![mock-up of front design](front.webp)
+![mock-up of rear design](rear.webp)
 
 # QR code
 

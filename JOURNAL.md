@@ -21,11 +21,15 @@ I wanted to make sure to avoid those online qr generators that lock up all of th
 
 ![QR code](qr.png)
 
+**time spent: 30 minutes**
+
 # NFC side
 
 This is where i struggled the most. I don’t know too much about nfc, and i felt like there were few resources available for beginners who are looking to design an nfc antenna and matching circuit for a card. I worked on building it from scratch for quite a long time before finally finding an open source version on GitHub that met my needs. I then adjusted it to meet my specific requirements and fixed a couple of issues that were present in the original.
 
 ![image of layout](schematic.png)
+
+**time spent: 1 hours**
 
 # Front design
 
@@ -34,4 +38,4 @@ For the front of the card: black PCB, white silkscreen. I created the design in 
 ![mock-up of front design](front.webp)
 
 
-**time spent: 2 hours**
+**time spent: 1 hours**

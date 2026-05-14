@@ -13,6 +13,8 @@ Created_at: "2026-05-13"
 
 Today, i made a PCB business card that does two things: includes a qr code etched in copper on the back, and has an nfc chip on the front that will light a small LED using power harvesting when a person taps their phone to the card.
 
+![mock-up of front design](front.webp)
+
 # QR code
 
 I wanted to make sure to avoid those online qr generators that lock up all of the useful features behind a pay wall. So, i wrote a custom script to generate my own qr code using claude. That was very satisfying, because i was able to put rounded corners on the modules and be able to place a logo in the center of the qr code, neither of which i could do using any of the free online generators. I also had claude help me determine some of the lesser known options available for creating non-standard designs with the qr matrix.
@@ -30,10 +32,6 @@ This is where i struggled the most. I don’t know too much about nfc, and i fel
 For the front of the card: black PCB, white silkscreen. I created the design in Photoshop, and then i had chatgpt create an image of one of my head shots in halftones that would be suitable for printing onto silkscreen. The tap point for the nfc chip is located on the right hand side of the card, adjacent to the LED.
 
 ![mock-up of front design](front.webp)
-
-# How it works
-
-My nfc chip is capable of utilizing power harvesting, therefore, it can capture just enough energy from the RF field to operate an LED. Anytime somebody taps their phone against the card, the LED turns on. This may seem like a minor detail, however, i believe/hope it will be a big hit.
 
 
 **time spent: 2 hours**
